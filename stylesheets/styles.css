@@ -2,18 +2,23 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:18px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
 
+.header-font{
+font:24px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:0 0 10px;
 }
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+  margin-bottom: 0px;
 }
 
 h1, h2, h3 {
@@ -30,6 +35,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
+  margin-bottom: 0px;
 }
 
 a {
@@ -92,6 +98,7 @@ th {
 }
 
 img {
+  padding-bottom: 10px;
   max-width:100%;
 }
 
